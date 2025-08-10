@@ -1,4 +1,4 @@
-package BreakViaReflection;
+package Singleton.BreakViaReflection;
 
 import java.io.*;
 import java.lang.reflect.*;
@@ -77,13 +77,13 @@ public class BreakReflection {
     }
 }
 
-// Since it's a Singleton Class I should not be able to create a multiple duplicate object for this class
+// Since it's a Singleton.Singleton Class I should not be able to create a multiple duplicate object for this class
 class Singleton{
 
     private static volatile Singleton Instance;
 
     private Singleton() {
-        System.out.println("Singleton Instance being created");
+        System.out.println("Singleton.Singleton Instance being created");
     }
 
     public static Singleton getInstance() {
@@ -120,16 +120,30 @@ class Database implements Serializable , Cloneable {
         return Instance;
     }
 
-    // solution to imporve the breaking of Singleton DP in Cloning
+    // solution to imporve the breaking of Singleton.Singleton DP in Cloning
     @Override
     protected Object clone() throws CloneNotSupportedException {
 //        return super.clone();
-          return Instance;  // or throw Exception to avoid copied ocjects of Singleton class
+          return Instance;  // or throw Exception to avoid copied ocjects of Singleton.Singleton class
     }
 
-    // solution to imporve the breaking of Singleton DP in Serialisation and deserialisation
+    // solution to imporve the breaking of Singleton.Singleton DP in Serialisation and deserialisation
     protected Object readResolve()
     {
+        System.out.println("Read resolve mei aaagye ho hehe");
         return Instance;
+    }
+
+    private void writeObject(ObjectOutputStream oos) throws IOException {
+        // can alter some logic for writeObject Over here.
+        System.out.println("hehe write Object mei aagye ho");
+        oos.defaultWriteObject();
+    }
+
+    private void readObject( ObjectInputStream ois ) throws IOException , ClassNotFoundException
+    {
+        // can alter some logic for readObject Over here.
+        System.out.println("hehe read Object mei aagye ho");
+        ois.defaultReadObject();
     }
 }

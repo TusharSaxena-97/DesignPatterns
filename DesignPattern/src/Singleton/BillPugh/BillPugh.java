@@ -1,4 +1,4 @@
-package BillPugh;
+package Singleton.BillPugh;
 
 public class BillPugh {
     public static void main( String args[])
