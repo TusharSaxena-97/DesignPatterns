@@ -1,6 +1,6 @@
 package BreakViaReflection;
-import com.sun.org.apache.bcel.internal.generic.ClassGenException;
 
+import java.io.*;
 import java.lang.reflect.*;
 
 public class BreakReflection {
@@ -23,7 +23,9 @@ public class BreakReflection {
         System.out.println(obj2.hashCode());
         System.out.println(obj3.hashCode());
 
-        CounterReflection();
+        //CounterReflection();
+        //BreakViaClone();
+        BreakViaSerialization();
     }
 
     public static void CounterReflection() throws Exception
@@ -45,6 +47,33 @@ public class BreakReflection {
         System.out.println(obj1.hashCode());
         System.out.println(obj2.hashCode());
         System.out.println(obj3.hashCode());
+    }
+
+    public static void BreakViaClone() throws Exception ,CloneNotSupportedException
+    {
+        Database obj1 = Database.getInstance();
+        Database obj2 = (Database)obj1.clone();
+
+        System.out.println( obj1.hashCode() );
+        System.out.println( obj2.hashCode() );
+
+    }
+
+    public static void BreakViaSerialization() throws Exception
+    {
+        Database obj = Database.getInstance();
+        System.out.println( obj.hashCode() );
+
+        FileOutputStream fos = new FileOutputStream("DbObject.txt");
+        ObjectOutputStream oos = new ObjectOutputStream( fos );
+
+        oos.writeObject( obj );
+        oos.close(); fos.close();
+
+        FileInputStream fis = new FileInputStream( "DbObject.txt");
+        ObjectInputStream ois = new ObjectInputStream( fis );
+
+        System.out.println( ois.readObject().hashCode() );
     }
 }
 
@@ -69,7 +98,7 @@ class Singleton{
     }
 }
 
-class Database{
+class Database implements Serializable , Cloneable {
     private static volatile Database Instance;
 
     private Database() throws Exception
@@ -88,6 +117,19 @@ class Database{
                 if( Instance == null )
                     Instance = new Database();
             }
+        return Instance;
+    }
+
+    // solution to imporve the breaking of Singleton DP in Cloning
+    @Override
+    protected Object clone() throws CloneNotSupportedException {
+//        return super.clone();
+          return Instance;  // or throw Exception to avoid copied ocjects of Singleton class
+    }
+
+    // solution to imporve the breaking of Singleton DP in Serialisation and deserialisation
+    protected Object readResolve()
+    {
         return Instance;
     }
 }
