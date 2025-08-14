@@ -1,4 +1,5 @@
 package Observable;
 
-public class ISubscriber {
+interface ISubscriber {
+    public void Update();
 }
