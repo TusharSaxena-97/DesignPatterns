@@ -8,8 +8,16 @@ public class BreakReflection {
     public static void main(String args[]) throws Exception
     {
         Class<?> c = Singleton.class;
+        Constructor<?> cc = c.getDeclaredConstructor();
+
+        if( !cc.isAccessible() )
+            cc.setAccessible(true);
+
+        Singleton obj = (Singleton)cc.newInstance();
+
+       // Class<?> c = Singleton.class;
         // here we are getting the declared constructor i.e. the private constructor
-        Constructor cc = c.getDeclaredConstructor();
+       // Constructor cc = c.getDeclaredConstructor();
         Method m = c.getDeclaredMethod("method_name");
 
         if( !m.isAccessible() )
@@ -134,7 +142,8 @@ class Database implements Serializable , Cloneable {
     // solution to imporve the breaking of Singleton.Singleton DP in Serialisation and deserialisation
     protected Object readResolve() throws CloneNotSupportedException {
         System.out.println("Read resolve mei aaagye ho hehe");
-        return new String("Gol mal hai bhia sab gol maal hai");
+        //return new String("Gol mal hai bhia sab gol maal hai");
+        return this;
     }
 
     private void writeObject(ObjectOutputStream oos) throws IOException {

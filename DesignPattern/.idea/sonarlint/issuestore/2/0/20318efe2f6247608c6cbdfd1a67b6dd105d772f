@@ -1,0 +1,21 @@
+
+L
+java:S3740"/Provide the parametrized type for this generic.(¹’÷£8†Ùë‰•3
+i	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(°˜·8‰Ùë‰•3
+i	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¹’÷£8‰Ùë‰•3
+n	java:S1018"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(óñ‡µÿÿÿÿÿ8‰Ùë‰•3
+7
+java:S1220""Move this file to a named package.8‰Ùë‰•3
+O
+java:S1199"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8‰Ùë‰•3
+O
+java:S1199"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8‰Ùë‰•3
+j	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ùé…‹8Ùë‰•3
+j	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ñ¢ñ8Ùë‰•3
+>
+java:S2326"!counter is not used in the class.(¹’÷£8Ùë‰•3
+e	java:S119"IRename this generic name to match the regular expression '^[A-Z][0-9]?$'.(¹’÷£8Ùë‰•3
+G
+java:S1197"*Move the array designators [] to the type.(‘–µ¥8’Ùë‰•3
+J	java:S108(")Either remove or fill this block of code.(ÒÌâ–øÿÿÿÿ8”Ùë‰•3
+G	java:S1064"+Replace this use of System.out by a logger.(¿•£¾8”Ùë‰•3

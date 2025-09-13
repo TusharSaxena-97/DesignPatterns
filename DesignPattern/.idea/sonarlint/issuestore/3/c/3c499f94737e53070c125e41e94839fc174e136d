@@ -1,0 +1,8 @@
+
+o
+java:S1104"MMake c a static final constant or non-public and provide accessors if needed.(ìµ§úÿÿÿÿ8æ‰Ûó“3
+n	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(»Ä‚ÿÿÿÿÿ8æ‰Ûó“3
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(£±¼Ÿ8è‰Ûó“3
+G
+java:S1197"*Move the array designators [] to the type.(„Ü¢´8ó‰Ûó“3
+G	java:S106&"+Replace this use of System.out by a logger.(¿•£¾8ú‰Ûó“3

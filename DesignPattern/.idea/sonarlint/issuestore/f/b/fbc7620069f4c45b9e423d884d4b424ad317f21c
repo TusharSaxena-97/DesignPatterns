@@ -1,0 +1,16 @@
+
+o
+java:S1104"MMake x a static final constant or non-public and provide accessors if needed.(«±åøşÿÿÿÿ8ãá‹ì“3
+o
+java:S1104,"MMake x a static final constant or non-public and provide accessors if needed.(˜Ãø¨øÿÿÿÿ8éá‹ì“3
+n	java:S101*"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(úÚœÂıÿÿÿÿ8éá‹ì“3
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÄËÂÃ8éá‹ì“3
+_
+java:S2094"BRemove this empty class, write its code or make it an "interface".(ÇÜØ—8ñá‹ì“3
+L	java:S106"+Replace this use of System.out by a logger.(ê¨ŞÅøÿÿÿÿ8õá‹ì“3
+L
+java:S1197 "*Move the array designators [] to the type.(º ìıÿÿÿÿ8õá‹ì“3
+L	java:S106%"+Replace this use of System.out by a logger.(¯ÿØşÿÿÿÿ8õá‹ì“3
+I
+java:S2387,"'"x" is the name of a field in "Parent".(˜Ãø¨øÿÿÿÿ8õá‹ì“3
+]	java:S1250"<This block of commented-out lines of code should be removed.(Ì†¿Ğÿÿÿÿÿ8÷á‹ì“3

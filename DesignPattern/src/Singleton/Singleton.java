@@ -29,7 +29,7 @@ class DataBase{
         System.out.println("Database Constructor");
     }
     public static DataBase GetInstance() {
-        if (Instance == null)
+        if ( Instance == null )
             synchronized (DataBase.class) {
 //             If both thread enter this section they create multiple objects , which breaks the Singleton.Singleton pattern
                 if( Instance == null )

@@ -1,0 +1,22 @@
+
+v
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(±¨Û8éÙÛ‚˜3
+w
+java:S1488,"ZImmediately return this expression instead of assigning it to the temporary variable "th".(Œ˜«¬8êÙÛ‚˜3
+n	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ûµğÛøÿÿÿÿ8ëÙÛ‚˜3
+n	java:S101("MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(°ˆ¸Ïøÿÿÿÿ8ìÙÛ‚˜3
+h	java:S1012"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ÎÄ˜Q8òÙÛ‚˜3
+i	java:S101<"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(õšã—8ôÙÛ‚˜3
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‚¬Ìûûÿÿÿÿ8÷ÙÛ‚˜3
+L
+java:S1197"*Move the array designators [] to the type.(º ìıÿÿÿÿ8 ÚÛ‚˜3
+€
+java:S2142"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(²ı…¦ûÿÿÿÿ8ªÚÛ‚˜3
+L	java:S106"+Replace this use of System.out by a logger.(ÛöåÈúÿÿÿÿ8°ÚÛ‚˜3
+€
+java:S2142!"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(¼Ôîàùÿÿÿÿ8ÀÚÛ‚˜3
+G	java:S106"+Replace this use of System.out by a logger.(”‚ÌĞ8ÁÚÛ‚˜3
+E	java:S108"")Either remove or fill this block of code.(Äé†ˆ8ÃÚÛ‚˜3
+]	java:S125-"<This block of commented-out lines of code should be removed.(ç¦ìÿÿÿÿÿ8ĞÚÛ‚˜3
+L	java:S1067"+Replace this use of System.out by a logger.(®àí£ıÿÿÿÿ8ÓÚÛ‚˜3
+X	java:S125R"<This block of commented-out lines of code should be removed.(¸‘è¡8¥±´„˜3

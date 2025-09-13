@@ -1,0 +1,66 @@
+
+g	java:S112x"FDefine and throw a dedicated exception instead of using a generic one.(¥»ëíùÿÿÿÿ8õÔŞĞ–3
+b	java:S112t"FDefine and throw a dedicated exception instead of using a generic one.(†¡ñÎ8õÔŞĞ–3
+Q
+java:S3740/"/Provide the parametrized type for this generic.(œç¸úøÿÿÿÿ8öÔŞĞ–3
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ï Ğà8øÔŞĞ–3
+q
+java:S2095V"OUse try-with-resources or close this "ObjectInputStream" in a "finally" clause.(ÑÒ»¥øÿÿÿÿ8ÕŞĞ–3
+r
+java:S2095P"PUse try-with-resources or close this "ObjectOutputStream" in a "finally" clause.(¥€ë˜øÿÿÿÿ8ÕŞĞ–3
+p
+java:S2095O"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(šİœùÿÿÿÿ8ÕŞĞ–3
+j
+java:S2095U"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(ªĞ Í8ÕŞĞ–3
+T
+java:S1854"7Remove this useless assignment to local variable "obj".(Šğø†8õóßĞ–3
+L
+java:S1197"*Move the array designators [] to the type.(íä¸üÿÿÿÿ8“ÕŞĞ–3
+N
+java:S3011",This accessibility update should be removed.(Ñ×Ìúÿÿÿÿ8”ÕŞĞ–3
+E
+java:S1481"(Remove this unused "obj" local variable.(Šğø†8÷óßĞ–3
+X	java:S125"<This block of commented-out lines of code should be removed.(ä¼«»8®ç³„˜3
+N
+java:S3011",This accessibility update should be removed.(íË©¶úÿÿÿÿ8•ÕŞĞ–3
+N
+java:S3011",This accessibility update should be removed.(Ñ×Ìúÿÿÿÿ8•ÕŞĞ–3
+L	java:S106""+Replace this use of System.out by a logger.(“ƒÉÇøÿÿÿÿ8–ÕŞĞ–3
+G	java:S106#"+Replace this use of System.out by a logger.(ÇùÖï8–ÕŞĞ–3
+G	java:S106$"+Replace this use of System.out by a logger.(¶ßÁË8–ÕŞĞ–3
+X	java:S125&"<This block of commented-out lines of code should be removed.(ôÀüÌ8–ÕŞĞ–3
+o	java:S100+"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(öÜı®ûÿÿÿÿ8–ÕŞĞ–3
+N
+java:S30112",This accessibility update should be removed.(Ñ×Ìúÿÿÿÿ8—ÕŞĞ–3
+G	java:S106:"+Replace this use of System.out by a logger.(Èç»Ï8˜ÕŞĞ–3
+L	java:S106;"+Replace this use of System.out by a logger.(“ƒÉÇøÿÿÿÿ8˜ÕŞĞ–3
+G	java:S106<"+Replace this use of System.out by a logger.(ÇùÖï8˜ÕŞĞ–3
+G	java:S106="+Replace this use of System.out by a logger.(¶ßÁË8˜ÕŞĞ–3
+o	java:S100@"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.( ˆ¢§ûÿÿÿÿ8˜ÕŞĞ–3
+¡
+java:S1130@"Remove the declaration of thrown exception 'java.lang.CloneNotSupportedException' which is a subclass of 'java.lang.Exception'.( ˆ¢§ûÿÿÿÿ8™ÕŞĞ–3
+L	java:S106E"+Replace this use of System.out by a logger.(“ƒÉÇøÿÿÿÿ8™ÕŞĞ–3
+G	java:S106F"+Replace this use of System.out by a logger.(ÇùÖï8™ÕŞĞ–3
+o	java:S100J"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥ïúÍûÿÿÿÿ8šÕŞĞ–3
+G	java:S106M"+Replace this use of System.out by a logger.(Èç»Ï8šÕŞĞ–3
+L	java:S106X"+Replace this use of System.out by a logger.(¡¿ùÿÿÿÿÿ8ŸÕŞĞ–3
+p
+java:S3008_"SRename this field "Instance" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜÂÏ8ŸÕŞĞ–3
+t
+java:S3077_"WUse a thread-safe type; adding "volatile" is not enough to make this field thread-safe.(ÜÂÏ8 ÕŞĞ–3
+G	java:S106b"+Replace this use of System.out by a logger.(ÁšÀü8¡ÕŞĞ–3
+p
+java:S3008r"SRename this field "Instance" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡íÍ¤8¢ÕŞĞ–3
+t
+java:S3077r"WUse a thread-safe type; adding "volatile" is not enough to make this field thread-safe.(¡íÍ¤8£ÕŞĞ–3
+B
+java:S3010y"%Remove this assignment of "Instance".(Ä“±Ï8£ÕŞĞ–3
+G	java:S106v"+Replace this use of System.out by a logger.(‹Šé8¤ÕŞĞ–3
+p
+java:S2975‰"SRemove this "clone" implementation; use a copy constructor or copy factory instead.(™”” 8¥ÕŞĞ–3
+E
+java:S1185‰"(Remove this method to simply inherit it.(™”” 8¦ÕŞĞ–3
+H	java:S106"+Replace this use of System.out by a logger.(ì¤ï8§ÕŞĞ–3
+^	java:S125‘"<This block of commented-out lines of code should be removed.(Úêã¢úÿÿÿÿ8¯¼ëĞ–3
+H	java:S106—"+Replace this use of System.out by a logger.(‹ìíò8©ÕŞĞ–3
+G	java:S106"+Replace this use of System.out by a logger.(È³u8ªÕŞĞ–3

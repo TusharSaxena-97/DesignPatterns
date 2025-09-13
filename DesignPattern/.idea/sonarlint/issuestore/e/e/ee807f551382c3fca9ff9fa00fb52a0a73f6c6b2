@@ -1,0 +1,12 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(½ŸŞ
+E	java:S106"+Replace this use of System.out by a logger.(Ì¼¡èüÿÿÿÿ
+@	java:S106"+Replace this use of System.out by a logger.(ÇùÖï
+n
+java:S3008"SRename this field "Instance" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(”Á«¦şÿÿÿÿ
+?	java:S106"+Replace this use of System.out by a logger.(´¡ˆ	
+h	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿Ñœşÿÿÿÿ
+O
+java:S2168!"9Remove this dangerous instance of double-checked locking.(æÍ¨Ó
+K
+java:S2446%"0"notify" may not wake up the appropriate thread.(ÌÌÉ´şÿÿÿÿ

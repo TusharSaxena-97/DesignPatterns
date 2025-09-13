@@ -1,0 +1,56 @@
+
+i	java:S101
+"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¬îÒ8üÒ«Á–3
+i	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ı™¯ü8üÒ«Á–3
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‡ûÈŸ8ıÒ«Á–3
+Y
+java:S3655"7Call "Optional#isPresent()" before accessing the value.(ÁËûÿÿÿÿ8ÌÒÿ‚˜3
+T
+java:S3655)"7Call "Optional#isPresent()" before accessing the value.(ˆêáÜ8ÍÒÿ‚˜3
+T
+java:S3655&"7Call "Optional#isPresent()" before accessing the value.(¼ç´8ÌÒÿ‚˜3
+T
+java:S3655="7Call "Optional#isPresent()" before accessing the value.(İË¬‡8ÌÒÿ‚˜3
+Y
+java:S3655""7Call "Optional#isPresent()" before accessing the value.(ÑûĞÎûÿÿÿÿ8ÌÒÿ‚˜3
+Y
+java:S1854J"7Remove this useless assignment to local variable "mpp".(¥ÉØ”ùÿÿÿÿ8‹Ó«Á–3
+V
+java:S1854)"9Remove this useless assignment to local variable "maxll".(ˆêáÜ8‹Ó«Á–3
+Y
+java:S1854"7Remove this useless assignment to local variable "sum".(Ã˜ùûÿÿÿÿ8İ½ŠĞ–3
+L
+java:S1197"*Move the array designators [] to the type.(º ìıÿÿÿÿ8ŒÓ«Á–3
+J
+java:S1481"(Remove this unused "sum" local variable.(Ã˜ùûÿÿÿÿ8ã½ŠĞ–3
+G	java:S106"+Replace this use of System.out by a logger.(òŞ„´8Ó«Á–3
+L	java:S106#"+Replace this use of System.out by a logger.(¾ùôŒùÿÿÿÿ8Ó«Á–3
+L	java:S106'"+Replace this use of System.out by a logger.(Û”Úøùÿÿÿÿ8Ó«Á–3
+G
+java:S1481)"*Remove this unused "maxll" local variable.(ˆêáÜ8Ó«Á–3
+L	java:S106-"+Replace this use of System.out by a logger.(˜‹¦¿ıÿÿÿÿ8Ó«Á–3
+L	java:S106>"+Replace this use of System.out by a logger.(ÊÆÄŒÿÿÿÿÿ8Ó«Á–3
+L
+java:S1611C"/Remove the parentheses around the "a" parameter(¼­üË8Ó«Á–3
+L	java:S106D"+Replace this use of System.out by a logger.(È‰Ÿæùÿÿÿÿ8’Ó«Á–3
+G	java:S106G"+Replace this use of System.out by a logger.(Ó÷‡—8´šˆ¨Æ3
+J
+java:S1481J"(Remove this unused "mpp" local variable.(¥ÉØ”ùÿÿÿÿ8“Ó«Á–3
+G	java:S106L"+Replace this use of System.out by a logger.(¾¥¡8“Ó«Á–3
+G	java:S106P"+Replace this use of System.out by a logger.(ŸáÓ8•Ó«Á–3
+G	java:S106S"+Replace this use of System.out by a logger.(Äšöõ8Ìšˆ¨Æ3
+L	java:S106^"+Replace this use of System.out by a logger.(¹¦…‡úÿÿÿÿ8–Ó«Á–3
+L	java:S106`"+Replace this use of System.out by a logger.(Ù¸°´şÿÿÿÿ8–Ó«Á–3
+N
+java:S1602g",Remove useless curly braces around statement(«¥Ò¯ıÿÿÿÿ8—Ó«Á–3
+L	java:S106k"+Replace this use of System.out by a logger.(³¸±‹ıÿÿÿÿ8—Ó«Á–3
+L	java:S106s"+Replace this use of System.out by a logger.(¿Çğíşÿÿÿÿ8˜Ó«Á–3
+b
+java:S1612t"@Replace this lambda with method reference 'System.out::println'.(ìù¿äûÿÿÿÿ8˜Ó«Á–3
+L	java:S106t"+Replace this use of System.out by a logger.(ìù¿äûÿÿÿÿ8™Ó«Á–3
+^
+java:S1128"<Remove this unused import 'javax.lang.model.type.ArrayType'.(£¾Øğùÿÿÿÿ8ëÒÿ‚˜3
+U
+java:S1128"8Remove this unused import 'java.util.function.Function'.(»³Í8ëÒÿ‚˜3
+Q
+java:S1128"4Remove this unused import 'java.util.stream.Stream'.(ó÷”8ìÒÿ‚˜3

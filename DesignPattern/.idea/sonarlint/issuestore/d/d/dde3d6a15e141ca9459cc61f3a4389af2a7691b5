@@ -1,0 +1,16 @@
+
+n	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(àĞİøÿÿÿÿ8‹¯÷î“3
+n	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(§Ùäëúÿÿÿÿ8¹¯÷î“3
+n	java:S101%"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ÚÛù¢úÿÿÿÿ8Æ¯÷î“3
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¯ì·±ûÿÿÿÿ8È¯÷î“3
+{
+java:S1210"YOverride "equals(Object obj)" to comply with the contract of the "compareTo(T o)" method.(¬…ÁÍøÿÿÿÿ8„°÷î“3
+L
+java:S1197/"*Move the array designators [] to the type.(ì…ãüüÿÿÿÿ8Â°÷î“3
+G	java:S106<"+Replace this use of System.out by a logger.(üÆ·ê8Å°÷î“3
+G	java:S106@"+Replace this use of System.out by a logger.(ˆ€æ—8Šüûî“3
+G	java:S106G"+Replace this use of System.out by a logger.(é‹Æİ8‹üûî“3
+M
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8Å°÷î“3
+T
+java:S1128"2Remove this unused import 'java.util.Collections'.(¢³ïÓşÿÿÿÿ8Å°÷î“3
